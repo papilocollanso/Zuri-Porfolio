@@ -1,0 +1,115 @@
+/* app styling */
+
+
+header{
+    text-align:center;
+    text-decoration: underline;
+    margin: 1.2rem;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.top{
+    display: flex;
+    background-color: black;
+    width: auto;
+    height: auto;
+   
+    
+
+    }
+a{
+    margin-left: 3em;
+    color: greenyellow;
+    font-size: 1.2rem;
+    
+}
+a:hover{
+    color: white;
+   
+}
+h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: hsl(20px, 25px, 50px);
+    text-decoration: underline;
+
+}
+h2{
+    text-decoration: underline;
+}
+
+.first{
+    text-align: justify;
+    text-indent: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.hobbies{
+    text-align: justify;
+    text-indent: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.priorities{
+    text-align: justify;
+    text-indent: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.skills{
+    text-align: justify;
+    text-indent: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+    color: green;
+    font-style: italic;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    
+}
+img{
+    margin-top: 10rem;
+    border-radius: 15px;
+  
+}
+button{
+    background-color: black;
+    color: greenyellow;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.con{
+    text-align: center;
+    margin: 5rem;
+}
+form{
+    text-align: justify;
+}
+form input{
+    width: 50%;
+}
+.con input{
+    width:32rem;
+    height: 1.5rem;
+    
+}
+
+button:hover{
+    color: white;
+    background-color: red;
+    text-align: center;
+}
